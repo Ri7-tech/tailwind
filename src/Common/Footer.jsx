@@ -48,8 +48,9 @@ export default function Footer() {
               <Link to="/cx">
                 <li>Customer Care</li>
               </Link>
-
-              <li>Track Your Order</li>
+              <Link to="/trackorder">
+                <li>Track Your Order</li>
+              </Link>
 
               <li>Shipping & Returns</li>
               <li>Gift Certificates</li>

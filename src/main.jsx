@@ -10,6 +10,7 @@ import Categories from "./Component/Categories";
 import Imagesection from "./Component/Imagesection";
 import Customer from "./Component/Customer";
 import AboutUs from "./Component/AboutUs";
+import TrackYourOrder from "./Component/TrackYourOrder";
 
 createRoot(document.getElementById("root")).render(
   <>
@@ -22,6 +23,7 @@ createRoot(document.getElementById("root")).render(
           <Route path="/imageview" element={<Imagesection />} />
           <Route path="/cx" element={<Customer />} />
           <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/trackorder" element={<TrackYourOrder />} />
         </Route>
       </Routes>
     </BrowserRouter>
